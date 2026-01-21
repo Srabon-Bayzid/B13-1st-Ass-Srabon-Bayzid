@@ -4,8 +4,8 @@
     box-sizing:border-box ;
 }
 .btn{
-    max-width: 164px;
-    max-height: 44px;
+    width: 180px;
+    height: 44px;
     border-radius: 4px;
     padding: 12px 16px;
     background-color: #30B868;
@@ -19,7 +19,6 @@
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    background-color: aqua;
     margin: 0 auto;
 }
 #img {
@@ -39,4 +38,69 @@ nav a {
     /* max-width: 67px;
     max-height: 24px; */
     color: black;
+}
+.Banner{
+    width: 1600px;
+    height: 674px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/hero-bg.png);
+    background-size: cover;
+    margin: 0 auto;
+    
+    
+    
+}
+.middle{
+     max-width: 1360px;
+    max-height: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 154.5px;
+
+}
+#first{
+    max-width: 229px;
+    max-height: 354px;
+    border-radius: 1000px;
+    background-color: white;
+    font: medium;
+    color: #30B868;
+    margin-bottom: 10px;
+
+
+}
+.middle h1 {
+    max-width: 770px;
+    max-height: 1368px;
+    margin-bottom: 16px;
+    font-size:55px;
+    color: azure;
+
+}
+.middle span{
+    color: #30B868;
+}
+.middle #second {
+line-height: 24px;
+margin-bottom: 32px;
+color: azure;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+#abc{
+    width: 164px;
+    height: 44px;
+    border-radius: 4px;
+    background: transparent;
+    color: azure;
 }
